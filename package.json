@@ -1,0 +1,16 @@
+{
+  "name": "toys",
+  "private": true,
+  "packageManager": "pnpm@11.25.0",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "dev": "node scripts/toy.mjs dev",
+    "package": "node scripts/toy.mjs package",
+    "check": "pnpm --filter \"@toys/*\" --fail-if-no-match run check"
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": "2.12.4"
+  }
+}

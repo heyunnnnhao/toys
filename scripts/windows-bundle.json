@@ -1,0 +1,11 @@
+{
+  "bundle": {
+    "active": true,
+    "targets": ["nsis"],
+    "publisher": "Toys",
+    "windows": {
+      "webviewInstallMode": { "type": "downloadBootstrapper" },
+      "nsis": { "installMode": "currentUser" }
+    }
+  }
+}
