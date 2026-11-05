@@ -1,0 +1,5 @@
+node_modules
+dist
+*.local
+sim-output
+/public/assets/sprites/

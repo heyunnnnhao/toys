@@ -17,6 +17,15 @@ pnpm package work-cheer
 
 The development command opens the workday earnings dashboard in a Tauri window. Its native App menu opens settings for the schedule, monthly salary, annual bonus, and the reward for the date shown on the dashboard. The dashboard spreads the bonus across 12 months and divides each month's compensation across its Monday–Friday workdays. Press the backtick key to start the simulated clock from a local date and time or return to the real clock.
 
+## Run Gold Miner
+
+```powershell
+pnpm dev gold-miner
+pnpm package gold-miner
+```
+
+See [Gold Miner](apps/gold-miner/README.md) for controls, browser development, and asset credits. The desktop build uses its own save storage. The public checkout uses the game's built-in vector artwork. Local copies of the original Flash sprites are ignored by Git and can be loaded for personal use. [Asset credits](apps/gold-miner/public/assets/CREDITS.md)
+
 ## Architecture
 
 | Location | Ownership |

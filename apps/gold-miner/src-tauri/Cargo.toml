@@ -1,0 +1,11 @@
+[package]
+name = "toys-gold-miner"
+version = "0.4.2"
+edition = "2021"
+publish = false
+
+[build-dependencies]
+tauri-build.workspace = true
+
+[dependencies]
+tauri.workspace = true
